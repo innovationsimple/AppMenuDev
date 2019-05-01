@@ -49,7 +49,7 @@
 		{% for app in category.apps %}
 			<div class="medium-12 large-8 columns tile-margin end">
 				<div class="dashboard-tile">
-					{% if app.coming_soon %}
+					{% if app.is_platinum %}
 						<div class="row collapse coming-soon-row">
 							<img src="/static/images/platinum.svg" alt="Coming Soon" class="coming-soon">
 						</div>
